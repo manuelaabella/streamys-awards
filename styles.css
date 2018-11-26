@@ -1,0 +1,61 @@
+
+html {
+    background-image: linear-gradient(Crimson,gold,Crimson,gold,Crimson);
+    color:white;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+} 
+
+h1{
+    font-size:50px;
+    
+}
+
+.awards {
+    font-size:70px;
+    font-family: 'Bangers', cursive;
+    font-weight:100;
+    color:SpringGreen;
+    border-style: dashed; 
+}
+
+.breakout {
+    width:700px;
+    font-size:50px;
+    font-family: 'Freckle Face', cursive;
+    font-weight:100;
+    color:skyblue;
+    background-color:DarkSlateBlue;
+}
+   
+
+.first {
+    width:700px;
+    font-size:45px;
+    font-family: 'Source Code Pro', monospace;
+    background-color:black;
+    color:white;
+}
+
+.comedy {
+    width:700px;
+    font-size:40px;
+    font-family: 'Spicy Rice', cursive;
+    background-color:darkblue;
+    color:Aqua;
+}
+
+.food {
+    width:700px;
+    font-size:50px; 
+    font-family: 'Paytone One', sans-serif;
+    background-color:white;
+    color:red;
+}
+ 
+ .img:hover {
+   -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(0.5); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
